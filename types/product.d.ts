@@ -1,5 +1,7 @@
+import {ThumbnailType} from './thumbnail';
+
 export type ProductType = {
-    thumbnail: string;
+    thumbnail: ThumbnailType;
     category: string;
     name: string;
     description: string;
