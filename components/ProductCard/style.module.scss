@@ -1,0 +1,69 @@
+@import "styles/utils";
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .thumbnail {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+
+  .body {
+    padding: 24px;
+
+    .category {
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #6C7289;
+      margin-bottom: 12px;
+    }
+
+    .name {
+      @include displayFont;
+      font-size: 32px;
+      line-height: 32px;
+      color: #1C232B;
+      margin-bottom: 16px;
+    }
+
+    .description {
+      font-size: 14px;
+      line-height: 23px;
+      color: #6C7289;
+      margin-bottom: 24px;
+    }
+
+    .priceContainer {
+      display: flex;
+      align-items: center;
+      grid-gap: 24px;
+      margin-bottom: 20px;
+
+      .price {
+        @include displayFont;
+        font-size: 32px;
+        line-height: 32px;
+        color: #3D8168;
+      }
+
+      .originalPrice {
+        font-size: 13px;
+        line-height: 23px;
+        text-decoration-line: line-through;
+        color: #6C7289;
+      }
+    }
+
+    .buttonContainer {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
