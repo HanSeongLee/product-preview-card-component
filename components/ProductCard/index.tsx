@@ -21,7 +21,7 @@ const ProductCard: React.FC<IProps> = ({ product, className, ...props }) => {
         >
             <picture>
                 <source srcSet={thumbnail.mobile}
-                        media={'(min-width: 992px)'}
+                        media={'(max-width: 992px)'}
                 />
 
                 <img className={styles.thumbnail}
