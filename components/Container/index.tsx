@@ -4,7 +4,9 @@ import cn from 'classnames';
 
 const Container: React.FC<HTMLAttributes<HTMLDivElement>> = ({ className, children, ...props }) => {
     return (
-        <div className={cn(styles.container, className)}>
+        <div className={cn(styles.container, className)}
+             {...props}
+        >
             {children}
         </div>
     );
