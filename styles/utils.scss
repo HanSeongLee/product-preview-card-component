@@ -1,3 +1,8 @@
 @import '~include-media/dist/include-media';
 
 $breakpoints: (mobile: 568px, tablet: 767px, desktop: 992px);
+
+@mixin displayFont() {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
