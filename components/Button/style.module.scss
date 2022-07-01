@@ -1,0 +1,23 @@
+
+.button {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+
+  &.primary {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #3D8168;
+    border-radius: 8px;
+  }
+
+  .iconWrapper {
+    display: flex;
+    margin-right: 11px;
+  }
+}
