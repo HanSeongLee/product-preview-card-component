@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 html,
 body {
@@ -9,6 +9,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   background: #F2EAE2;
+  font-variation-settings: 'opsz' 72;
 }
 
 a {
