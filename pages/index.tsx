@@ -57,6 +57,9 @@ const Home: NextPage = () => {
         </Head>
 
         <main className={styles.main}>
+          <h1 className={styles.hidden}>
+            Product Preview Card Component
+          </h1>
           <Container>
             <ProductContainer />
           </Container>

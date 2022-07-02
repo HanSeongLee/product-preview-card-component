@@ -6,4 +6,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  .hidden {
+    position: absolute;
+    top: -9999px;
+  }
 }
