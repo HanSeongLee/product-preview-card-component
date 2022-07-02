@@ -45,8 +45,7 @@
     }
 
     .name {
-      font-family: 'Fraunces', serif;
-      font-weight: 700;
+      @include displayFont;
       font-size: 32px;
       line-height: 32px;
       color: #1C232B;
